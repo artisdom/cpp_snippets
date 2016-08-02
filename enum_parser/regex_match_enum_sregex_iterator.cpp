@@ -24,8 +24,16 @@ int main(int argc, char *argv[])
     sregex_iterator it_end;
 
     while (it != it_end) {
+        smatch result = *it;
+
+        cout << "result.size(): " << result.size() << endl;
         cout << it->str() << endl;
+        cout << "(*it)[0]: " << (*it)[0]<< endl;
+        cout << "(*it)[1]: " << (*it)[1]<< endl;
+        cout << "(*it)[2]: " << (*it)[2]<< endl;
+
         ++it;
+        break;
     }
 
     return 0;
