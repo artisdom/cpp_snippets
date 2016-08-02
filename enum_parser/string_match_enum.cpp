@@ -7,7 +7,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    ifstream in("./Cpp/SocketTAL.pb.h");    
+    ifstream in("./Cpp/SocketTAL.pb.h");
 
     auto ss = std::ostringstream{};
     ss << in.rdbuf();
