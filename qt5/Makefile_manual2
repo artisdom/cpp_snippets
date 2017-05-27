@@ -1,0 +1,28 @@
+all:
+	#g++ -fPIC -o init_date init_date.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o curdatetime curdatetime.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o comparedates comparedates.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o leapyear leapyear.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o dateformats dateformats.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o customdateformats customdateformats.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o timeformats timeformats.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o customdateformats customdateformats.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o weekday weekday.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o nofdays nofdays.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o validity validity.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o daystofrom daystofrom.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o datetime datetime.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o julianday julianday.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o battles battles.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o utclocal utclocal.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o unixepoch unixepoch.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o myvector myvector.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o mylist mylist.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o mystringlist mystringlist.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o myset myset.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o myqmap myqmap.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o sortcustomclass sortcustomclass.cpp book.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o file_size file_size.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o read_file read_file.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o write2file write2file.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	g++ -fPIC -o copy_file copy_file.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`

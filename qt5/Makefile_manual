@@ -1,0 +1,79 @@
+all:
+	#g++ -fPIC -o init_date init_date.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o curdatetime curdatetime.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o comparedates comparedates.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o leapyear leapyear.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o dateformats dateformats.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o customdateformats customdateformats.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o timeformats timeformats.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o customdateformats customdateformats.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o weekday weekday.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o nofdays nofdays.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o validity validity.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o daystofrom daystofrom.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o datetime datetime.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o julianday julianday.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o battles battles.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o utclocal utclocal.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o unixepoch unixepoch.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o myvector myvector.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o mylist mylist.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o mystringlist mystringlist.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o myset myset.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o myqmap myqmap.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o sortcustomclass sortcustomclass.cpp book.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o file_size file_size.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o read_file read_file.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o write2file write2file.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o copy_file copy_file.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o owner owner.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o file_times file_times.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o dirs dirs.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o special_paths special_paths.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o file_path file_path.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o permissions permissions.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o list_dir list_dir.cpp `pkg-config --cflags Qt5Core` `pkg-config --libs Qt5Core`
+	#g++ -fPIC -o tooltip tooltip.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o icon icon.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o cursors cursors.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o pushbutton pushbutton.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o plusminus_main plusminus.cpp plusminus_main.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o simplemenu_main simplemenu_main.cpp simplemenu.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o anothermenu_main anothermenu_main.cpp anothermenu.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o checkable_main checkable_main.cpp checkable.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o toolbar_main toolbar_main.cpp toolbar.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o skeleton_main skeleton_main.cpp skeleton.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o absolute absolute.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o verticalbox_main verticalbox_main.cpp verticalbox.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+ 	#g++ -fPIC -o buttons_main buttons_main.cpp buttons.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o nesting_main nesting_main.cpp nesting.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o form_main form_main.cpp form.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o calculator_main calculator_main.cpp calculator.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o review_main review_main.cpp review.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o keypress_main keypress_main.cpp keypress.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o move_main move_main.cpp move.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o disconnect_main disconnect_main.cpp disconnect.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o timer_main timer_main.cpp timer.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o label_main label_main.cpp label.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o slider_main slider_main.cpp slider.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o combobox_main combobox_main.cpp combobox.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o spinbox_main spinbox_main.cpp spinbox.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o ledit_main ledit_main.cpp ledit.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o statusbar_main statusbar_main.cpp statusbar.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o checkbox_main checkbox_main.cpp checkbox.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o listwidget_main listwidget_main.cpp listwidget.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o progressbar_main progressbar_main.cpp progressbar.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o pixmap_main pixmap_main.cpp pixmap.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o splitter_main splitter_main.cpp splitter.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o table_main table_main.cpp table.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o lines_main lines_main.cpp lines.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o colours_main colours_main.cpp colours.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o patterns_main patterns_main.cpp patterns.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o transparent_rectangles_main transparent_rectangles_main.cpp transparent_rectangles.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o donut_main donut_main.cpp donut.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o shapes_main shapes_main.cpp shapes.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o linear_gradients_main linear_gradients_main.cpp linear_gradients.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o radial_gradient_main radial_gradient_main.cpp radial_gradient.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	#g++ -fPIC -o puff_main puff_main.cpp puff.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+	g++ -fPIC -o burning_widget_main burning_widget_main.cpp burning.cpp widget.cpp `pkg-config --cflags Qt5Widgets` `pkg-config --libs Qt5Widgets`
+
